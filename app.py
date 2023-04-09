@@ -103,12 +103,4 @@ ax.grid(True)
 st.pyplot(fig)
 plt.show()
 
-#Actual vs predicted graph
-st.title('Actual vs Predicted values')
-plt.plot(Test["Close"], color = 'red', label = 'Real  Stock Price')
-plt.plot(data_forecast, color = 'blue', label = 'Predicted  Stock Price')
-plt.title(' Stock Price Prediction')
-plt.xlabel('Time')
-plt.ylabel(' Stock Price')
-plt.legend()
-plt.show()
+
